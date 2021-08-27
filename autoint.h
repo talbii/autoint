@@ -25,7 +25,7 @@ struct AutoInt* autoint_create(void);
 void autoint_safecreate(struct AutoInt* preallocated);
 
 /** frees an AutoInt */
-int deleteNumber(struct AutoInt* x);
+void autoint_free(struct AutoInt* x);
 
 /* Arithmetic Functions  */
 
