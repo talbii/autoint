@@ -21,7 +21,7 @@ struct AutoInt {
 /** allocate a new empty AutoInt. Will return NULL if malloc() fails. */
 struct AutoInt* autoint_create(void);
 
-/** given a preallocated AutoInt, this will fill the struct with default values. */
+/** given a preallocated AutoInt (allocated both the AutoInt struct, and the field AutoInt->data), this will fill the struct with default values. */
 void autoint_safecreate(struct AutoInt* preallocated);
 
 /** frees an AutoInt */

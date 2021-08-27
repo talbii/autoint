@@ -2,7 +2,9 @@
 
 #include <stdlib.h>
 
-/* AutoInt::Memory Functions */
+// =========================
+// AutoInt::Memory Functions 
+// =========================
 
 struct AutoInt* autoint_create(void) {
     struct AutoInt* num;
